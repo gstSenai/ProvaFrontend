@@ -91,7 +91,7 @@ header{
     letter-spacing: -0.18px;
 }
 
-#flecha{
+.flecha{
     display: block;
     width: 32px;
     height: 32px;
@@ -463,9 +463,126 @@ header{
     line-height: normal;
 }
 
+#lampada-geral{
+    margin-left: 29px;
+}
+
 .lampada{
     width: 100%;
     height: 837px;
+}
+
+#texto-laranja{
+    color: #F17252;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    margin-top: -770px;
+}
+
+#titulo-lampada{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    margin-top: 16px;
+}
+
+#desc-lampada{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+    opacity: 0.5;
+    margin-right: 22px;
+}
+
+#title-color{
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-top: 29px;
+}
+
+#check-line{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 4px;
+}
+
+#ger-bola{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+#bola-azul{
+    margin-right: 10px;
+}
+
+#bola-laranja{
+    margin-right: 10px;
+}
+
+
+#bola-marrom{
+    margin-right: 10px;
+}
+
+#bola-clara{
+    margin-right: 10px;
+}
+
+#button-lampada{
+    display: inline-flex;
+    padding: 12px 16px;
+    gap: 16px;
+    border-radius: 4px;
+    background: linear-gradient(95deg, #F26440 -23.03%, #EF7D60 122.53%);
+    border: none;
+    margin-top: 72px;
+}
+
+#section-6{
+    width: 100%;
+    height: 955px;
+}
+
+
+
+#texto-11{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px; 
+    letter-spacing: -1.2px;
+    margin-right: 61px;
+    margin-left: 24px;
+    margin-top: 410px;
+}
+
+#box{
+    width: 327px;
+    height: 678px;
+    border-radius: 16px;
+    background: #FAF8F4;
 }
 
 @media (min-width:480px){
