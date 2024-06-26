@@ -531,20 +531,7 @@ header{
     flex-direction: row;
 }
 
-#bola-azul{
-    margin-right: 10px;
-}
-
-#bola-laranja{
-    margin-right: 10px;
-}
-
-
-#bola-marrom{
-    margin-right: 10px;
-}
-
-#bola-clara{
+#bola-azul,#bola-laranja,#bola-marrom,#bola-clara{
     margin-right: 10px;
 }
 
@@ -560,10 +547,7 @@ header{
 
 #section-6{
     width: 100%;
-    height: 955px;
 }
-
-
 
 #texto-11{
     color: #000;
@@ -648,11 +632,186 @@ header{
     line-height: normal;
     letter-spacing: 2.88px;
     opacity: 0.1;
-    clip-path: inset(0% 0% 40%);
+    clip-path: inset(0% 0% 41%);
     margin-top: -90px;
     margin-left: 26px;
     width: 124px;
     height: 338px;
+}
+
+#last-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 886px;
+    background: #F5F6F8;
+    margin-top: 53px;
+}
+
+#last-title{
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; 
+    letter-spacing: -1.08px;
+    margin-top: 83px;
+    margin-left: 24px;
+}
+
+#last-desc{
+    color: var(--Neutral-Black, #0F3141);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
+    opacity: 0.8;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 21px;
+}
+
+#last-button{
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    background: var(--Linear-4, linear-gradient(95deg, #F26440 -23.03%, #EF7D60 122.53%));
+    border: none;
+    margin-left: 34px;
+}
+
+#text-button3{
+    color: var(--Neutral-White, #FFF);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.18px;
+}
+
+#ultima{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+#text-sub{
+   margin-top: 16px;
+   margin-left: 12px;
+   color: #000;
+   font-family: "Raleway", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0.2px;
+   text-decoration-line: underline;
+   opacity: 0.7;
+}
+
+#maiorImg{
+    margin-left: 206px;
+    margin-top: 10px;
+}
+
+#mediaImg{
+    margin-top: -144px;
+    margin-left: 121.87px;
+}
+
+#smallImg{
+    position: absolute;
+    margin: -60px -265px;
+}
+
+footer{
+    width: 100%;
+    height: 501px;
+    background: #0F3141;
+}
+
+#logo-footer{
+    margin: 44px 0px 0px 24px;
+}
+
+#title-footer{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    margin: 34px 0px 0px 20px;
+}
+
+.endereco-email{
+    display: flex;
+    flex-direction: row;
+}
+
+#localizacao{
+    margin: 34px 0px 0px 20px;
+}
+
+#text-loc{
+    margin-top: 36.5px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 16px;
+}
+
+#desc-loc{
+    margin: 5px 0px 0px 20px;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 21px;
+}
+
+#politica{
+    display: flex;
+    flex-direction: row;
+}
+
+#termos{
+    color: var(--Neutral-60, #878787);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin:32px 55px 0px 22.93px;
+}
+
+#privacidade{
+    color: var(--Neutral-60, #878787);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 32px;
+}
+
+#redes-sociais{
+    display: flex;
+    margin-left: 116px;
+    margin-top: 35px;
 }
 
 @media (min-width:480px){
