@@ -841,6 +841,8 @@ footer{
 }
 
 @media (min-width:1024px){
+
+
     #sub-section{
         height: 42.25rem;; 
     }
@@ -863,5 +865,14 @@ footer{
         display: flex;
         flex-direction: row;
     }
-
+    .box-planta,.box-cadeira,.box-armario,.box-estante,.box-luz,.box-grandeArmario{
+        margin-top: 4.5rem;
+        margin-right: 1.5rem;
+        width: 15rem;
+        height: 15rem;
+        margin-left: 0;
+    }
+    .box-cadeira{
+        margin-left: 6.44rem;
+    }
 }   
