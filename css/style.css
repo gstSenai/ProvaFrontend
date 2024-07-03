@@ -870,7 +870,7 @@ footer{
     #todas{
         display: flex;
         flex-direction: row;
-
+        margin-left: 5%;
     }
     .box-planta,.box-cadeira,.box-armario,.box-estante,.box-luz{
         margin-top: 4.5rem;
@@ -879,9 +879,7 @@ footer{
         margin-left: 1.5rem;
         margin-right: 0;
     }
-    .box-cadeira{
-        margin-left: 6.44rem;
-    }
+    
     .box-grandeArmario{
         display: none;
     }
@@ -891,8 +889,15 @@ footer{
         height: 12.222vw;
         border-radius: 0.5rem;
         margin-top: 2rem;
-        margin-left: 4rem;
+        margin-left: 0;
     }
+
+    .centro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .titulo-itens{
         padding-top: 1rem;
     }
@@ -906,5 +911,13 @@ footer{
     }
     .flechas{
         margin-right: 4rem;
+    }
+    .titulo-banheiro,.desc-banheiro,.banheiro{
+        display: none;
+    }
+    .todas-imagens2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
     }
 }   
