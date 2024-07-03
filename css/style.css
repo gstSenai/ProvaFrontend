@@ -241,10 +241,14 @@ header{
     height: 1269px;
 }
 
+.titulo-3{
+    display: flex;
+    justify-content: space-between;
+}
+
 .flechas {
-    display: block;
-    margin-left: 272px;
-    margin-top: -39px;
+    padding-top: 7rem;
+    padding-right: 2rem;
 }
 
 #texto-10{
@@ -859,20 +863,48 @@ footer{
         margin-left: 5rem;
     }
     #terceiro-title{
+        width: 100%;
         height: 49.75rem;
     }
+
     #todas{
         display: flex;
         flex-direction: row;
+
     }
-    .box-planta,.box-cadeira,.box-armario,.box-estante,.box-luz,.box-grandeArmario{
+    .box-planta,.box-cadeira,.box-armario,.box-estante,.box-luz{
         margin-top: 4.5rem;
-        margin-right: 1.5rem;
-        width: 15rem;
-        height: 15rem;
-        margin-left: 0;
+        width: 16.667vw;
+        height: 16.667vw;
+        margin-left: 1.5rem;
+        margin-right: 0;
     }
     .box-cadeira{
         margin-left: 6.44rem;
+    }
+    .box-grandeArmario{
+        display: none;
+    }
+
+    .planta,.cadeira,.estante,.armario,.luz{
+        width: 8.889vw;
+        height: 12.222vw;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+    .titulo-itens{
+        padding-top: 1rem;
+    }
+    .desc,.tamanho,.preco{
+        margin-top: 0.5rem;
+    }
+    #texto-10{
+        font-size: 3.75rem;
+        letter-spacing: -0.1125rem;
+        margin-left: 6.44rem;
+    }
+    .flechas{
+        margin-right: 4rem;
     }
 }   
