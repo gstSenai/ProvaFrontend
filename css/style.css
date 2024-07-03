@@ -920,4 +920,33 @@ footer{
         flex-direction: row;
         margin-left: 0;
     }
+    .lampada-completa{
+        display: flex;
+        width: 100%;
+    }
+    .lampada{
+        display: none;
+    }
+    #texto-laranja{
+        padding-top: 12.5rem;
+    }
+    #lampada-geral{
+        margin-left: 6.44rem;
+    }
+    #titulo-lampada{
+        font-size: 3.75rem;
+    }
+    #desc-lampada{
+        font-size: 1.125rem;
+        margin-right: 43.25rem;
+    }
+    #central{
+        display: flex;
+        justify-content: start;
+    }
+    #box{
+        margin-left: 4.38rem;
+        width: 52.375rem;
+        height: 30.8125rem;
+    }
 }   
