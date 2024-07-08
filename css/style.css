@@ -8,10 +8,9 @@
     flex-direction: column;
 }
 
-header{
+#logo-mobile {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
 }
 
 #logo{
@@ -23,12 +22,13 @@ header{
 }
 
 #sidebar{
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-    margin-right: 20px;
-    margin-top: 28px;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1.75rem;
+    margin-left: 12rem;
 }
+
+
 
 #sidebar-desk{
     display: none;
@@ -260,7 +260,7 @@ header{
     line-height: 52px;
     letter-spacing: -1.2px;
     margin-left: 24px;
-    margin-top: 80px;
+    margin-top: 8.75rem;
 }
 
 .itens-1{
@@ -590,7 +590,7 @@ header{
 #flechas-2{
     display: flex;
     flex-direction: row;
-    padding-top: 28.5rem;
+    padding-top: 26rem;
     padding-right: 2rem;
 }
 
@@ -875,25 +875,97 @@ footer{
     display: none;
 }
 
-#circulo-orange{
-    display: none;
-}
 
 #cozinha-desktop, #sala-desktop, #quarto-desktop{
     display: none;
 }
 
-#flecha-solo{
-    display: none;
-}
+
+
 
 @media (min-width:480px){
-    
-    
+    #imagem-casa{
+        background-image: url("../assets/imagemDesktop.png");
+        height: 33rem;
+    }   
 }
 
 @media (min-width:1024px){
+    #logo-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    #logo-mobile {
+        display: flex;
+        gap: 50px;
+    }
+
+
+    #sidebar{
+        display: none;
+    }
+
+    #sidebar-desk{
+        display: flex;
+        list-style-type: none;
+        padding-top: 2rem;
+        gap:2rem;
+        justify-content: start;
+
+    }
+
+    #imagem-casa{
+        background-image: url("../assets/imagemDesktop.png");
+        height: 52.4375rem;
+    }
+
+    #pad-button {
+        margin-right: 5%;
+    }
+
+    #button-login{
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        background-color: #EF7D60;
+        border-radius: 30px;
+        border: none;
+        padding: 1rem 2rem;
+        margin-top: 1.2rem;
+    }
+
+    #text-about{
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+
+    .list-text{
+        color: var(--Neutral-60, #757B8A);
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; 
+    }
+
+    #text-Login{
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .titulo{
+        font-size: 5.5rem;
+        margin-left: 16.5rem;
+        margin-right: 16.5rem;
+        line-height: 5.875rem; 
+        letter-spacing: -0.165rem;
+    }
 
     #sub-section{
         height: 42.25rem;; 
@@ -989,8 +1061,16 @@ footer{
         margin-left: 2.5rem;
     }
 
+    #quarto-desktop{
+        height: 34.5vw;
+    }
+
     .titulo-Geral{
         font-size: 1.5rem;
+    }
+
+    .texto-dois{
+        margin:0;
     }
 
     .desc-Geral{
@@ -1010,30 +1090,8 @@ footer{
         margin-left: 2.5rem;
     }
 
-    .texto-tres-desktop{
-        padding-top: 13.7rem;
-    }
-
     .color-orange{
         color:#F07454;;
-    }
-
-    #circulo-orange, #flecha-solo{
-        display: flex;
-        margin-top: -18.5rem;
-    }
-
-    #circulo-orange{
-        width: 6.25vw;
-    }
-
-    #roll{
-        margin-left: 23.5rem;
-    }
-
-    #roll-arrow{
-        margin-top: 13.7rem;
-        margin-left: 0.75rem;
     }
 
     .titulo-banheiro,.desc-banheiro,.banheiro{
@@ -1072,6 +1130,20 @@ footer{
         margin-left: 4.38rem;
         width: 52.375rem;
         height: 30.8125rem;
+    } 
+
+    #texto-11{
+        font-family: "Poppins", sans-serif;
+        margin-top: 19rem;
+        font-size: 3.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.1125rem;
+        margin-left: 4.38rem;
     }
-    
+
+    #flechas-2{
+        padding-top: 18rem;
+    }
 }   
