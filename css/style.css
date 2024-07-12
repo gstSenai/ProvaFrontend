@@ -880,6 +880,9 @@ footer{
     display: none;
 }
 
+#comodos{
+    display: none;
+}
 
 
 
@@ -1127,6 +1130,7 @@ footer{
         justify-content: start;
     }
     #box{
+        display: flex;
         margin-left: 4.38rem;
         width: 52.375rem;
         height: 30.8125rem;
@@ -1143,7 +1147,76 @@ footer{
         margin-left: 4.38rem;
     }
 
+    #todo-text{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 3rem auto 3rem;
+    }
+
     #flechas-2{
         padding-top: 18rem;
+    }
+    #img-mulher{
+        width: 17.875rem;
+        height: 24.8125rem;
+        margin: 3rem auto auto 3rem;
+    }
+
+    #text-mulher{
+        font-size: 1.5rem;
+        line-height: 2.25rem; 
+        letter-spacing: -0.045rem;
+    }
+    #desc-mulher{
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+    #numero{
+        clip-path: inset(0% 0% 35%);
+        margin-top: -115px;
+        margin-left: 6.7rem;
+    }
+
+    #last-img{
+        display: none;
+    }
+    #comodos{
+        display: flex;
+        
+    }
+
+    #last-section{
+        height: 50.375rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #tudo-last{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #text-last{
+        display: flex;
+        flex-direction: column;
+        margin-left: 7.75rem;
+        margin-top: 7.88rem;
+    }
+
+    #last-title{
+        font-size: 3.75rem;
+        line-height: 4.5rem; 
+        letter-spacing: -0.1125rem;
+    }
+    #last-title,#last-desc{
+        margin: 0;
+    }
+
+    #last-button{
+        margin-left: 0;
+    }
+    #comodos{
+        width: 56.667vw;
+        height: 100%;
     }
 }   
