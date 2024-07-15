@@ -10,7 +10,11 @@
 
 #logo-mobile {
     display: flex;
+    justify-content: space-between;
+}
 
+nav{
+    display: none;
 }
 
 #logo {
@@ -25,9 +29,8 @@
     width: 1.5rem;
     height: 1.5rem;
     margin-top: 1.75rem;
-    margin-left: 12rem;
+    margin-right: 2rem;
 }
-
 
 #sidebar-desk {
     display: none;
@@ -948,7 +951,7 @@ footer {
     #sidebar-desk {
         display: flex;
         list-style-type: none;
-        padding-top: 2rem;
+        padding-top: 1.8rem;
         gap: 2rem;
         justify-content: start;
 
@@ -1007,7 +1010,6 @@ footer {
 
     #sub-section {
         height: 42.25rem;
-        ;
     }
 
     .segundo-title {
@@ -1187,7 +1189,7 @@ footer {
     }
 
     #texto-laranja {
-        margin-top: 7rem;
+        margin-top: 5rem;
     }
 
     #lampada-geral {
@@ -1200,7 +1202,7 @@ footer {
 
     #desc-lampada {
         font-size: 1.125rem;
-        margin-right: 22rem;
+        margin-right: 26rem;
     }
 
 
@@ -1471,5 +1473,10 @@ footer {
 
     #lampada-complenta-Mobile{
         display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
     }
 }
